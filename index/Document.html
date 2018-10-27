@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://192.168.0.144/1027/flex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1200px;
+            /* height: 600px; */
+            background-color: #0af;
+            margin: auto;
+            /* padding: 10px; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            /*row,row-reverse,column,column-reverse*/
+            align-items: center;
+            /*flex-start,center,flex-end,stretch,baseline*/
+            justify-content: space-between;
+            /*flex-start,center,flex-end,space-evenly,space-between,space-around*/
+        }
+        .box {
+            width: 300px;
+            padding: 15px;
+            background-color: #fa0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+          <!-- <div class="box" style="order:3">
+            <h2>TITLE 111</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores perspiciatis veniam sint quisquam dignissimos, beatae molestiae voluptates aliquid fuga, nobis saepe tempora sapiente impedit natus voluptatum? At, quidem magni!
+            </p>
+        </div> -->
+        <div class="box" style="order:4">
+            <h2>TITLE 222</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores perspiciatis veniam sint quisquam dignissimos, beatae molestiae voluptates aliquid fuga, nobis saepe tempora sapiente impedit natus voluptatum? At, quidem magni!
+            </p>
+        </div>
+        <div class="box" style="order:2;">
+            <h2>TITLE 333</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores perspiciatis veniam sint quisquam dignissimos, beatae molestiae voluptates aliquid fuga, nobis saepe tempora sapiente impedit natus voluptatum? At, quidem magni!
+            </p>
+        </div>
+        <div class="box" style="order:1;">
+            <h2>TITLE 444</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores perspiciatis veniam sint quisquam dignissimos, beatae molestiae voluptates aliquid fuga, nobis saepe tempora sapiente impedit natus voluptatum? At, quidem magni!
+            </p>
+        </div>
+    </div>
+
+</body></html>
